@@ -4,7 +4,8 @@ const UseRef = () => {
   let myHeadline = useRef();
 
   const change = () => {
-    myHeadline.current.innerHTML = "Hello React Hook!";
+    myHeadline.current.innerHTML =
+      "<ol><li>Hello React Hook! </li><li>Hello React Hook! </li></ol>";
   };
   return (
     <div>
