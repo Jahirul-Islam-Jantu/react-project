@@ -1,6 +1,6 @@
 const TimeMap = () => {
   return (
-    <div>
+    <div >
       {(() => {
         const country = [
           "Bangladesh",
@@ -11,12 +11,12 @@ const TimeMap = () => {
           "Norway",
         ];
         return (
-          <div>
-            <ol>
+          <div className="bg-secondary-subtle">
+            <ul className="list-unstyled">
               {country.map((item) => {
                 return <li>{item}</li>;
               })}
-            </ol>
+            </ul>
           </div>
         );
       })()}
