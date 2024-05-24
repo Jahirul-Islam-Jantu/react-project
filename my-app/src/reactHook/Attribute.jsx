@@ -4,8 +4,8 @@ const Attribute = () => {
   let myImg = useRef();
   const change = () => {
     myImg.current.src = "https://picsum.photos/700/300";
-    myImg.current.setAttribute("height", "500px");
-    myImg.current.setAttribute("width", "1500px");
+    myImg.current.setAttribute("height", "100px");
+    myImg.current.setAttribute("width", "300px");
   };
   return (
     <div>
