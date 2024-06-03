@@ -7,6 +7,7 @@ import Attribute from "./reactHook/Attribute";
 import UseCss from "./reactHook/UseCss";
 import CachingData from "./reactHook/CachingData";
 import UseStateMethod from './reactHook/UseStateMethod';
+import StateObj from './reactHook/StateObj';
 
 
 const App = () => {
@@ -23,6 +24,7 @@ const App = () => {
       <UseCss />
       <CachingData />
       <UseStateMethod />
+      <StateObj />
 
     </div>
   );
