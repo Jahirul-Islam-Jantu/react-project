@@ -1,14 +1,14 @@
-import TimeMap from "./reactHook/TimeMap";
+// import TimeMap from "./reactHook/TimeMap";
 import ChangeInput from "./reactHook/ChangeInput";
-import UseRef from "./reactHook/UseRef";
+// import UseRef from "./reactHook/UseRef";
 import TimeNow from "./reactHook/TimeNow";
-import UseRefWithoutCurrent from "./reactHook/UseRefWithoutCurrent";
-import Attribute from "./reactHook/Attribute";
-import UseCss from "./reactHook/UseCss";
-import CachingData from "./reactHook/CachingData";
-import UseStateMethod from './reactHook/UseStateMethod';
-import StateObj from './reactHook/StateObj';
-
+// import UseRefWithoutCurrent from "./reactHook/UseRefWithoutCurrent";
+// import Attribute from "./reactHook/Attribute";
+// import UseCss from "./reactHook/UseCss";
+// import CachingData from "./reactHook/CachingData";
+// import UseStateMethod from './reactHook/UseStateMethod';
+// import StateObj from './reactHook/StateObj';
+import TodoApp from "./reactHook/TodoApp";
 
 const App = () => {
   return (
@@ -16,7 +16,9 @@ const App = () => {
       <TimeNow />
 
       <ChangeInput />
-      <TimeMap />
+
+      <TodoApp />
+      {/* <TimeMap />
       <UseRef />
       <UseRefWithoutCurrent />
       <Attribute />
@@ -24,8 +26,7 @@ const App = () => {
       <UseCss />
       <CachingData />
       <UseStateMethod />
-      <StateObj />
-
+      <StateObj /> */}
     </div>
   );
 };
