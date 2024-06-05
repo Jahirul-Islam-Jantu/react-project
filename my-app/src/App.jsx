@@ -9,6 +9,7 @@ import TimeNow from "./reactHook/TimeNow";
 // import UseStateMethod from './reactHook/UseStateMethod';
 // import StateObj from './reactHook/StateObj';
 import TodoApp from "./reactHook/TodoApp";
+import NewToDo from "./reactHook/NewToDo";
 
 const App = () => {
   return (
@@ -18,6 +19,7 @@ const App = () => {
       <ChangeInput />
 
       <TodoApp />
+      <NewToDo />
       {/* <TimeMap />
       <UseRef />
       <UseRefWithoutCurrent />

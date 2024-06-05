@@ -5,6 +5,7 @@ const TodoApp = () => {
   const [item, setItem] = useState("");
   const change = () => {
     list.push(item);
+    
     setList([...list]);
   };
 
