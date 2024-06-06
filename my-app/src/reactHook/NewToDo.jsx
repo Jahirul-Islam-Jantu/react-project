@@ -14,7 +14,7 @@ const NewToDo = () => {
   };
 
   return (
-    <div>
+    <div className="container">
       <input
         type="text"
         placeholder="Item"

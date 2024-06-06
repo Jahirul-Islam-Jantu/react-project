@@ -8,18 +8,20 @@ import TimeNow from "./reactHook/TimeNow";
 // import CachingData from "./reactHook/CachingData";
 // import UseStateMethod from './reactHook/UseStateMethod';
 // import StateObj from './reactHook/StateObj';
-import TodoApp from "./reactHook/TodoApp";
+// import TodoApp from "./reactHook/TodoApp";
 import NewToDo from "./reactHook/NewToDo";
+import FormState from "./reactHook/FormState";
 
 const App = () => {
   return (
     <div className="text-center">
       <TimeNow />
 
-      <ChangeInput />
+      {/* <ChangeInput /> */}
 
-      <TodoApp />
+      {/* <TodoApp /> */}
       <NewToDo />
+      <FormState />
       {/* <TimeMap />
       <UseRef />
       <UseRefWithoutCurrent />
