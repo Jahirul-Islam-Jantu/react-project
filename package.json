@@ -1,6 +1,7 @@
 {
   "dependencies": {
     "bootstrap": "^5.3.3",
-    "milligram": "^1.4.1"
+    "milligram": "^1.4.1",
+    "react-router-dom": "^6.23.1"
   }
 }

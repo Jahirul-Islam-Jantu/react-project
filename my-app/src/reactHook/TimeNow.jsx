@@ -8,7 +8,9 @@ const TimeNow = () => {
   }, []);
   return (
     <div className="text-center container">
-      <h1 className="text-success">Hello World ! This is the time Now.</h1>
+      <h1 className="text-success">
+        Practice project of <span>REACT!</span>
+      </h1>
       <h2 className="border border-success p-2 mb-2 border-opacity-50 ">
         {time.toLocaleTimeString()}
       </h2>

@@ -1,5 +1,5 @@
 // import TimeMap from "./reactHook/TimeMap";
-import ChangeInput from "./reactHook/ChangeInput";
+// import ChangeInput from "./reactHook/ChangeInput";
 // import UseRef from "./reactHook/UseRef";
 import TimeNow from "./reactHook/TimeNow";
 // import UseRefWithoutCurrent from "./reactHook/UseRefWithoutCurrent";
@@ -12,9 +12,11 @@ import TimeNow from "./reactHook/TimeNow";
 import NewToDo from "./reactHook/NewToDo";
 import FormState from "./reactHook/FormState";
 
+// import HookUseEffect from "./reactHook/HookUseEffect";
+
 const App = () => {
   return (
-    <div className="text-center">
+    <div className="text-center container">
       <TimeNow />
 
       {/* <ChangeInput /> */}
@@ -31,6 +33,7 @@ const App = () => {
       <CachingData />
       <UseStateMethod />
       <StateObj /> */}
+      {/* <HookUseEffect /> */}
     </div>
   );
 };
